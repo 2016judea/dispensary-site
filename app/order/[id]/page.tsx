@@ -1,5 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getOrder } from '@/lib/store';
+import { cookies } from 'next/headers';
+import { ORDERS_COOKIE, decodeOrders } from '@/lib/order-cookie';
 import { productById } from '@/lib/rank';
 import { currentBrand } from '@/lib/session';
 import { money } from '@/lib/money';
@@ -15,7 +17,9 @@ export default async function OrderPage({
 }: { params: Promise<{ id: string }>; searchParams: Promise<Record<string, string | undefined>> }) {
   const { id } = await params;
   const sp = await searchParams;
-  const order = getOrder(id);
+  const jar = await cookies();
+  // The instance that placed this order may not be the instance rendering it.
+  const order = getOrder(id) ?? decodeOrders(jar.get(ORDERS_COOKIE)?.value).find((o) => o.id === id);
   if (!order) notFound();
   const b = await currentBrand();
   const store = b.stores.find((s) => s.id === order.storeId) ?? b.stores[0];

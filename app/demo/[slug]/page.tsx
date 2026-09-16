@@ -34,14 +34,14 @@ export default async function DemoSkin({ params }: { params: Promise<{ slug: str
   const store = b.stores[0];
 
   return (
-    <main className="wrap" style={{ ['--accent' as string]: b.colors.accent, ['--ground' as string]: b.colors.ground }}>
+    <main className="wrap">
       <h1 className="ask" style={{ marginBottom: 4 }}>{b.storeName}</h1>
       <p className="sub">
         {store?.street}, {store?.city}, MN{b.rating ? ` · ${b.rating}★ from ${b.reviews} Google reviews` : ''}
       </p>
 
       <a className="go" href={`/api/skin/${b.slug}`}>Open your store</a>
-      <p style={{ fontSize: 13, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
+      <p style={{ fontSize: 13.5, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
         The whole site, in your name and your colours. Nothing to install.
       </p>
 

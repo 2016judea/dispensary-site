@@ -152,7 +152,7 @@ export default function CheckoutScreen({ store, menu }: { store: MiniStore; menu
           <button className="ghost" onClick={link} disabled={linking || !named}>
             {linking ? 'Opening your bank…' : 'Link a bank — Aeropay'}
           </button>
-          <p style={{ fontSize: 13, color: 'var(--muted)', marginTop: 6 }}>
+          <p style={{ fontSize: 13.5, color: 'var(--muted)', marginTop: 6 }}>
             Card networks decline cannabis, which is why the counter is debit-and-cash only. Bank
             pay is the one way to settle this before you arrive.
           </p>
@@ -164,7 +164,7 @@ export default function CheckoutScreen({ store, menu }: { store: MiniStore; menu
       <button className="go" onClick={pay} disabled={!canPay || busy}>
         {busy ? 'Placing…' : `Place order — ${money(t.totalCents)}`}
       </button>
-      <p style={{ fontSize: 13, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
+      <p style={{ fontSize: 13.5, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
         45 seconds to undo after you tap. Bring a government ID — an employee checks it at the
         counter, which is the law in Minnesota and not something a website can do for you.
       </p>

@@ -1,1 +1,74 @@
-{}
+{
+ "base": "https://feeling-first.vercel.app",
+ "measuredAt": "2026-09-16T05:16:58.420Z",
+ "pages": {
+  "/": {
+   "url": "https://feeling-first.vercel.app/",
+   "ok": true,
+   "status": 200,
+   "final": "https://feeling-first.vercel.app/",
+   "ms": 228,
+   "bytes": 10727,
+   "https": true,
+   "viewport": true,
+   "title": "RISE Dispensaries — St. Paul, MN",
+   "meta_desc": true,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 7
+  },
+  "/find?f=sleep": {
+   "url": "https://feeling-first.vercel.app/find?f=sleep",
+   "ok": true,
+   "status": 200,
+   "final": "https://feeling-first.vercel.app/find?f=sleep",
+   "ms": 186,
+   "bytes": 10048,
+   "https": true,
+   "viewport": true,
+   "title": "RISE Dispensaries — St. Paul, MN",
+   "meta_desc": true,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 8
+  },
+  "/shelf": {
+   "url": "https://feeling-first.vercel.app/shelf",
+   "ok": true,
+   "status": 200,
+   "final": "https://feeling-first.vercel.app/shelf",
+   "ms": 887,
+   "bytes": 57774,
+   "https": true,
+   "viewport": true,
+   "title": "The whole shelf — RISE Dispensaries",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 0,
+   "scripts": 7
+  },
+  "/p/animal-face-flower": {
+   "url": "https://feeling-first.vercel.app/p/animal-face-flower",
+   "ok": true,
+   "status": 200,
+   "final": "https://feeling-first.vercel.app/p/animal-face-flower",
+   "ms": 156,
+   "bytes": 25369,
+   "https": true,
+   "viewport": true,
+   "title": "Animal Face Premium Flower — RISE Dispensaries",
+   "meta_desc": true,
+   "jsonld": 2,
+   "iframes": 0,
+   "scripts": 8
+  }
+ },
+ "summary": {
+  "ms": 228,
+  "bytes": 10727,
+  "jsonld": 2,
+  "viewport": true,
+  "https": true,
+  "iframes": 0
+ }
+}

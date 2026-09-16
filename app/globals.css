@@ -31,7 +31,7 @@ h1.ask {
   line-height: 1.12; letter-spacing: -0.022em; font-weight: 700;
   margin: 18px 0 16px;
 }
-.sub { color: var(--muted); font-size: 15px; margin: -12px 0 20px; }
+.sub { color: var(--muted); font-size: 15px; margin: -6px 0 20px; }
 
 /* ---- tappable choice ---- */
 .choices { display: grid; gap: 8px; }
@@ -47,14 +47,14 @@ h1.ask {
 .choice:focus-visible { outline: 3px solid var(--dial); outline-offset: 2px; }
 .choice .lbl { font-size: 18px; }
 .choice .sub2 { display: block; font-weight: 400; font-size: 13.5px; color: var(--muted); margin-top: 1px; }
-.choice .n { float: right; font-weight: 400; font-size: 13px; color: var(--muted); }
+.choice .n { float: right; font-weight: 400; font-size: 13.5px; color: var(--muted); }
 
 /* ---- the answer ---- */
 .pick {
   background: var(--card); border: 1.5px solid var(--line); border-radius: 16px;
   padding: 18px; margin: 0 0 12px;
 }
-.pick .eyebrow { font-size: 12.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.pick .eyebrow { font-size: 13px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
 .pick h2 { font-size: 25px; line-height: 1.15; margin: 7px 0 2px; letter-spacing: -0.015em; }
 .pick .meta { color: var(--muted); font-size: 14.5px; margin: 2px 0 10px; }
 .price { font-size: 27px; font-weight: 700; letter-spacing: -0.02em; }
@@ -109,16 +109,16 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 0;
 .foot {
   position: fixed; left: 0; bottom: 0; width: 100%; max-width: 100vw; z-index: 40;
   background: var(--accent); color: #fff;
-  font-size: 11.5px; line-height: 1.32; padding: 7px 14px calc(7px + env(safe-area-inset-bottom));
+  font-size: 12.5px; line-height: 1.34; padding: 8px 14px calc(7px + env(safe-area-inset-bottom));
   text-align: center;
 }
 .foot a { color: #fff; }
 .topline {
-  background: var(--ink); color: #fff; font-size: 11px; line-height: 1.3;
+  background: var(--ink); color: #fff; font-size: 12.5px; line-height: 1.3;
   padding: 5px 14px; text-align: center; letter-spacing: .01em;
 }
-.warn { font-size: 11.5px; color: var(--muted); line-height: 1.4; margin: 26px 0 0; }
-.demo-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .06em;
+.warn { font-size: 12.5px; color: var(--muted); line-height: 1.4; margin: 26px 0 0; }
+.demo-tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .06em;
   text-transform: uppercase; color: var(--muted); border: 1px solid var(--line);
   border-radius: 5px; padding: 2px 6px; }
 
@@ -134,7 +134,7 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 0;
 
 table.cmp { width: 100%; border-collapse: collapse; font-size: 15px; margin: 14px 0; }
 table.cmp th, table.cmp td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); }
-table.cmp th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+table.cmp th { font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 table.cmp td.n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
 .scroller { overflow-x: auto; max-width: 100%; }
 table.cmp { min-width: 320px; }

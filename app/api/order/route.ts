@@ -7,6 +7,7 @@ import { addOrder, upsertCustomer } from '@/lib/store';
 import { loadSkin, RISE } from '@/lib/brand';
 import { cookies } from 'next/headers';
 import { SKIN_COOKIE } from '@/lib/session';
+import { ORDERS_COOKIE, withOrder } from '@/lib/order-cookie';
 import type { Order, OrderLine, FeelingId } from '@/lib/types';
 
 export const runtime = 'nodejs';
@@ -91,5 +92,10 @@ export async function POST(req: Request) {
     bankLabel: s.bankLabel ?? null, defaultStoreId: storeId,
   });
 
-  return NextResponse.json({ order });
+  const res = NextResponse.json({ order });
+  // Carry it with the visitor — see lib/order-cookie.ts for why /tmp is not enough.
+  res.cookies.set(ORDERS_COOKIE, withOrder(jar.get(ORDERS_COOKIE)?.value, order), {
+    path: '/', httpOnly: true, sameSite: 'lax', maxAge: 60 * 60 * 24,
+  });
+  return res;
 }

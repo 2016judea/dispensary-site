@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import { addReview, getOrder, reviewsForOrder } from '@/lib/store';
+import { cookies } from 'next/headers';
+import { ORDERS_COOKIE, decodeOrders } from '@/lib/order-cookie';
 import type { FeelingId, Review } from '@/lib/types';
 
 export const runtime = 'nodejs';
@@ -18,7 +20,12 @@ export async function POST(req: Request) {
   let body: any;
   try { body = await req.json(); } catch { return NextResponse.json({ error: 'bad json' }, { status: 400 }); }
 
-  const order = getOrder(String(body.orderId ?? ''));
+  const id = String(body.orderId ?? '');
+  const jar = await cookies();
+  // Verification still means "this order exists and this product was on it" —
+  // the cookie is httpOnly and written only by the order route, so it is the
+  // same proof the file was, and it survives a cold lambda.
+  const order = getOrder(id) ?? decodeOrders(jar.get(ORDERS_COOKIE)?.value).find((o) => o.id === id);
   if (!order) return NextResponse.json({ error: 'no such order' }, { status: 404 });
   if (order.status === 'cancelled') return NextResponse.json({ error: 'that order was cancelled' }, { status: 409 });
 

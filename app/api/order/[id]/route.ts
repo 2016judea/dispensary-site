@@ -1,11 +1,20 @@
 import { NextResponse } from 'next/server';
 import { getOrder, updateOrder } from '@/lib/store';
+import { cookies } from 'next/headers';
+import { ORDERS_COOKIE, decodeOrders, withOrder } from '@/lib/order-cookie';
 
 export const runtime = 'nodejs';
 
+async function find(id: string) {
+  const fromDisk = getOrder(id);
+  if (fromDisk) return fromDisk;
+  const jar = await cookies();
+  return decodeOrders(jar.get(ORDERS_COOKIE)?.value).find((o) => o.id === id);
+}
+
 export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> }) {
   const { id } = await ctx.params;
-  const order = getOrder(id);
+  const order = await find(id);
   if (!order) return NextResponse.json({ error: 'not found' }, { status: 404 });
   return NextResponse.json({ order });
 }
@@ -13,7 +22,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> 
 /** The undo. Only inside the window, and only from placed/paid. */
 export async function DELETE(_req: Request, ctx: { params: Promise<{ id: string }> }) {
   const { id } = await ctx.params;
-  const order = getOrder(id);
+  const order = await find(id);
   if (!order) return NextResponse.json({ error: 'not found' }, { status: 404 });
   if (Date.now() > Date.parse(order.undoUntil)) {
     return NextResponse.json({ error: 'the undo window has closed — call the store' }, { status: 409 });
@@ -21,6 +30,11 @@ export async function DELETE(_req: Request, ctx: { params: Promise<{ id: string 
   if (order.status !== 'placed' && order.status !== 'paid') {
     return NextResponse.json({ error: `cannot undo an order that is ${order.status}` }, { status: 409 });
   }
-  const next = updateOrder(id, { status: 'cancelled' });
-  return NextResponse.json({ order: next });
+  const next = updateOrder(id, { status: 'cancelled' }) ?? { ...order, status: 'cancelled' as const };
+  const jar = await cookies();
+  const res = NextResponse.json({ order: next });
+  res.cookies.set(ORDERS_COOKIE, withOrder(jar.get(ORDERS_COOKIE)?.value, next), {
+    path: '/', httpOnly: true, sameSite: 'lax', maxAge: 60 * 60 * 24,
+  });
+  return res;
 }

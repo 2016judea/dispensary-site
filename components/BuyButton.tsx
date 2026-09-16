@@ -61,7 +61,7 @@ export default function BuyButton({
         {busy ? 'Placing…' : `Buy now — ${money(priceCents)} · ${shopper.bankLabel} ••${shopper.bankLast4}`}
       </button>
       {err ? <p style={{ color: '#B3261E', fontSize: 14, marginTop: 8 }}>{err}</p> : null}
-      <p style={{ fontSize: 13, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
+      <p style={{ fontSize: 13.5, color: 'var(--muted)', marginTop: 8, textAlign: 'center' }}>
         One tap places it. You get 45 seconds to undo. {label} is held at the counter; ID checked there.
       </p>
     </>

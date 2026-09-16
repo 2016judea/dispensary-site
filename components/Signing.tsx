@@ -84,7 +84,7 @@ export default function Signing({ live }: { live: boolean }) {
             {state === 'loading' ? 'Opening…' : live ? 'Sign with DocuSign' : 'Accept (DocuSign not connected)'}
           </button>
           {!live ? (
-            <p style={{ fontSize: 13, color: 'var(--muted)', marginTop: 8 }}>
+            <p style={{ fontSize: 13.5, color: 'var(--muted)', marginTop: 8 }}>
               Embedded signing is wired end to end in <code>lib/docusign.ts</code>. It needs an
               integration key, a user id, an account id and an RSA private key from the DocuSign
               account owner, plus a one-time admin consent grant — see docs/DEPLOY.md.

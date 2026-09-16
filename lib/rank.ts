@@ -52,7 +52,20 @@ export function rank(products: Product[], feeling: FeelingId): Scored[] {
     .sort((a, b) => b.score - a.score || a.product.priceCents - b.product.priceCents);
 }
 
+/**
+ * The demo shelf's stock counts are keyed to the RISE store id, because that is
+ * the store the fixture was generated for. A prospect skin has its own store id
+ * and no counts of its own, and treating a missing key as zero emptied the shelf
+ * for every skin - a 404 on the finder, "0 things on the shelf" on /shelf.
+ * Caught on production, 2026-09-16.
+ *
+ * So: a store we have counts for is answered from those counts. A store we have
+ * no counts for falls back to "in stock anywhere", which is the honest reading of
+ * a shared demo shelf. A live menu adapter always writes a key for its own store,
+ * so this branch disappears the moment one is connected.
+ */
 export function inStock(p: Product, storeId: string | null): boolean {
-  if (!storeId) return Object.values(p.stock).some((n) => n > 0);
+  const anywhere = Object.values(p.stock).some((n) => n > 0);
+  if (!storeId || !(storeId in p.stock)) return anywhere;
   return (p.stock[storeId] ?? 0) > 0;
 }

@@ -1,0 +1,54 @@
+{
+ "slug": "midway-cannabis-st-paul",
+ "storeName": "Midway Cannabis",
+ "legalName": "Midway Cannabis",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Midway Cannabis",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#005555",
+  "ground": "#FFFFFF",
+  "dial": "#005555"
+ },
+ "colorSource": "http://www.midway-cannabis.com/",
+ "phone": "(651) 348-6523",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "http://www.midway-cannabis.com/",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.4,
+ "reviews": 54,
+ "openerFact": "no mobile viewport tag - the site is not responsive on a phone",
+ "scan": {
+  "url": "http://www.midway-cannabis.com/",
+  "ok": true,
+  "ms": 413,
+  "status": 200,
+  "final": "http://www.midway-cannabis.com/",
+  "bytes": 7674,
+  "https": false,
+  "viewport": false,
+  "title": "Midway Coffee and Tea - Home Page",
+  "meta_desc": false,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 5,
+  "platforms": []
+ },
+ "stores": [
+  {
+   "id": "midway-cannabis-st-paul",
+   "name": "Saint Paul",
+   "street": "1607 W University Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55104",
+   "lat": 44.9560694,
+   "lng": -93.1682786,
+   "phone": "(651) 348-6523",
+   "hours": null
+  }
+ ]
+}

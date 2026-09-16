@@ -1,0 +1,43 @@
+{
+ "slug": "kodjo-s-dispensary-st-paul",
+ "storeName": "Kodjo's Dispensary",
+ "legalName": "Kodjo's Dispensary",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Kodjo's Dispensary",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#1F2421",
+  "ground": "#F3F1EC",
+  "dial": "#C8553D"
+ },
+ "colorSource": "default",
+ "phone": "",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "",
+ "verifiedOn": "2026-09-16",
+ "rating": null,
+ "reviews": null,
+ "openerFact": "no website at all - the county directory lists no site for them",
+ "scan": {
+  "url": null,
+  "ok": false,
+  "error": "no website on file"
+ },
+ "stores": [
+  {
+   "id": "kodjo-s-dispensary-st-paul",
+   "name": "Saint Paul",
+   "street": "446 W University Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55103",
+   "lat": 44.95568955,
+   "lng": -93.11902209,
+   "phone": "",
+   "hours": null
+  }
+ ]
+}

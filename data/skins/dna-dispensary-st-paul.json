@@ -1,0 +1,56 @@
+{
+ "slug": "dna-dispensary-st-paul",
+ "storeName": "DNA Dispensary",
+ "legalName": "DNA Dispensary",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "DNA Dispensary",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#1F2421",
+  "ground": "#F3F1EC",
+  "dial": "#C8553D"
+ },
+ "colorSource": "default",
+ "phone": "(651) 391-3896",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://dnadispensary.wm.store/",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.6,
+ "reviews": 36,
+ "openerFact": "menu rented on someone else's subdomain, no site of their own",
+ "scan": {
+  "url": "https://dnadispensary.wm.store/",
+  "ok": true,
+  "ms": 731,
+  "status": 200,
+  "final": "https://dnadispensary.wm.store/",
+  "bytes": 183726,
+  "https": true,
+  "viewport": true,
+  "title": "",
+  "meta_desc": true,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 23,
+  "platforms": [
+   "Weedmaps"
+  ]
+ },
+ "stores": [
+  {
+   "id": "dna-dispensary-st-paul",
+   "name": "Saint Paul",
+   "street": "1559 Randolph Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55105",
+   "lat": 44.9271743,
+   "lng": -93.166259,
+   "phone": "(651) 391-3896",
+   "hours": null
+  }
+ ]
+}

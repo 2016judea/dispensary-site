@@ -1,0 +1,56 @@
+{
+ "slug": "potshotz-mn-st-paul",
+ "storeName": "Potshotz mn",
+ "legalName": "Potshotz mn",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Potshotz mn",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#1F2421",
+  "ground": "#F3F1EC",
+  "dial": "#C8553D"
+ },
+ "colorSource": "default",
+ "phone": "",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://potshotzmn.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.6,
+ "reviews": 51,
+ "openerFact": "site is fine (938ms); the gap is the shopping experience, not the site",
+ "scan": {
+  "url": "https://potshotzmn.com",
+  "ok": true,
+  "ms": 938,
+  "status": 200,
+  "final": "https://potshotzmn.com",
+  "bytes": 395354,
+  "https": true,
+  "viewport": true,
+  "title": "Cannabis Dispensary",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 0,
+  "scripts": 35,
+  "platforms": [
+   "BLAZE/Tymber"
+  ]
+ },
+ "stores": [
+  {
+   "id": "potshotz-mn-st-paul",
+   "name": "Saint Paul",
+   "street": "1549 W University Avenue, Suite# East",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55104",
+   "lat": 44.9560153,
+   "lng": -93.1658426,
+   "phone": "",
+   "hours": null
+  }
+ ]
+}

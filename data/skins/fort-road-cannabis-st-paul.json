@@ -1,0 +1,56 @@
+{
+ "slug": "fort-road-cannabis-st-paul",
+ "storeName": "Fort Road Cannabis",
+ "legalName": "Fort Road Cannabis",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Fort Road Cannabis",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#5A32D2",
+  "ground": "#C7F6E1",
+  "dial": "#1EA99E"
+ },
+ "colorSource": "https://fortroadcannabis.dispensary.shop/rec/menu",
+ "phone": "(651) 352-2663",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://fortroadcannabis.dispensary.shop/rec/menu",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.8,
+ "reviews": 32,
+ "openerFact": "4.2s to load on a phone, 1.2MB",
+ "scan": {
+  "url": "https://fortroadcannabis.dispensary.shop/rec/menu",
+  "ok": true,
+  "ms": 4241,
+  "status": 200,
+  "final": "https://fortroadcannabis.dispensary.shop/rec/menu",
+  "bytes": 1246564,
+  "https": true,
+  "viewport": true,
+  "title": "Fort Road Cannabis | Saint Paul, MN",
+  "meta_desc": true,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 9,
+  "platforms": [
+   "Dispense"
+  ]
+ },
+ "stores": [
+  {
+   "id": "fort-road-cannabis-st-paul",
+   "name": "Saint Paul",
+   "street": "899 Randolph Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55102",
+   "lat": 44.9270856,
+   "lng": -93.1380508,
+   "phone": "(651) 352-2663",
+   "hours": null
+  }
+ ]
+}

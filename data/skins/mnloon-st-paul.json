@@ -1,0 +1,57 @@
+{
+ "slug": "mnloon-st-paul",
+ "storeName": "MnLooN",
+ "legalName": "MnLooN",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "MnLooN",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#212529",
+  "ground": "#FFFFFF",
+  "dial": "#0D6EFD"
+ },
+ "colorSource": "https://themnloon.com",
+ "phone": "(651) 364-2585",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://themnloon.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.9,
+ "reviews": 704,
+ "openerFact": "site is fine (205ms); the gap is the shopping experience, not the site",
+ "scan": {
+  "url": "https://themnloon.com",
+  "ok": true,
+  "ms": 205,
+  "status": 200,
+  "final": "https://themnloon.com",
+  "bytes": 95136,
+  "https": true,
+  "viewport": true,
+  "title": "Recreational Cannabis Dispensary in Minnesota | MnLooN",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 2,
+  "scripts": 26,
+  "platforms": [
+   "Dutchie",
+   "WordPress"
+  ]
+ },
+ "stores": [
+  {
+   "id": "mnloon-st-paul",
+   "name": "Saint Paul",
+   "street": "608 S Snelling Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55116",
+   "lat": 44.9231355,
+   "lng": -93.1665253,
+   "phone": "(651) 364-2585",
+   "hours": null
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "theory-wellness-of-mn-st-paul",
+ "storeName": "Theory Wellness of MN",
+ "legalName": "Theory Wellness of MN",
+ "tagline": "St. Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Theory Wellness of MN",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#FF1053",
+  "ground": "#FFFFFF",
+  "dial": "#D87558"
+ },
+ "colorSource": "https://theorywellness.org",
+ "phone": "",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://theorywellness.org",
+ "verifiedOn": "2026-09-16",
+ "rating": null,
+ "reviews": null,
+ "openerFact": "site is fine (447ms); the gap is the shopping experience, not the site",
+ "scan": {
+  "url": "https://theorywellness.org",
+  "ok": true,
+  "ms": 447,
+  "status": 200,
+  "final": "https://theorywellness.org",
+  "bytes": 258618,
+  "https": true,
+  "viewport": true,
+  "title": "Theory Wellness | Medical &amp; Recreational Cannabis Dispensary",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 1,
+  "scripts": 84,
+  "platforms": [
+   "Dutchie",
+   "WordPress"
+  ]
+ },
+ "stores": [
+  {
+   "id": "theory-wellness-of-mn-st-paul",
+   "name": "St. Paul",
+   "street": "1915 Suburban Avenue",
+   "city": "St. Paul",
+   "state": "MN",
+   "zip": "55119",
+   "lat": 44.94971813,
+   "lng": -93.0199028,
+   "phone": "",
+   "hours": null
+  }
+ ]
+}

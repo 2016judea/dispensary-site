@@ -1,0 +1,140 @@
+/* Utilitarian. Two colours and one dial, from the skin. Nothing decorative. */
+:root {
+  --accent: #00461E;
+  --ground: #E9ECD9;
+  --dial: #C4D600;
+  --ink: #1A1D19;
+  --muted: #5F6559;
+  --line: rgba(0, 0, 0, 0.14);
+  --card: #FFFFFF;
+  --tap: 58px;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; max-width: 100%; }
+[hidden] { display: none !important; }
+code { overflow-wrap: anywhere; font-size: .92em; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font: 400 17px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* a long unbreakable URL in a list item dragged a 25px horizontal scroll onto
+     /about at 390px. break-word only breaks words that would not fit anyway. */
+  overflow-wrap: break-word;
+}
+a { color: inherit; }
+.wrap { max-width: 560px; margin: 0 auto; padding: 0 16px 112px; }
+
+/* ---- the one question ---- */
+h1.ask {
+  font-size: clamp(27px, 7.4vw, 38px);
+  line-height: 1.12; letter-spacing: -0.022em; font-weight: 700;
+  margin: 18px 0 16px;
+}
+.sub { color: var(--muted); font-size: 15px; margin: -12px 0 20px; }
+
+/* ---- tappable choice ---- */
+.choices { display: grid; gap: 8px; }
+.choice {
+  display: block; width: 100%; text-align: left; text-decoration: none;
+  min-height: var(--tap);
+  background: var(--card); color: var(--ink);
+  border: 1.5px solid var(--line); border-radius: 14px;
+  padding: 12px 16px; font: inherit; font-weight: 600; cursor: pointer;
+  transition: border-color .12s, transform .06s;
+}
+.choice:active { transform: scale(.985); }
+.choice:focus-visible { outline: 3px solid var(--dial); outline-offset: 2px; }
+.choice .lbl { font-size: 18px; }
+.choice .sub2 { display: block; font-weight: 400; font-size: 13.5px; color: var(--muted); margin-top: 1px; }
+.choice .n { float: right; font-weight: 400; font-size: 13px; color: var(--muted); }
+
+/* ---- the answer ---- */
+.pick {
+  background: var(--card); border: 1.5px solid var(--line); border-radius: 16px;
+  padding: 18px; margin: 0 0 12px;
+}
+.pick .eyebrow { font-size: 12.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.pick h2 { font-size: 25px; line-height: 1.15; margin: 7px 0 2px; letter-spacing: -0.015em; }
+.pick .meta { color: var(--muted); font-size: 14.5px; margin: 2px 0 10px; }
+.price { font-size: 27px; font-weight: 700; letter-spacing: -0.02em; }
+
+.evidence { font-size: 14.5px; line-height: 1.4; margin: 10px 0 0; padding: 11px 13px;
+  background: var(--ground); border-radius: 10px; }
+.evidence b { font-weight: 700; }
+
+.bar { height: 7px; border-radius: 4px; background: rgba(0,0,0,.1); overflow: hidden; margin-top: 6px; }
+.bar > i { display: block; height: 100%; background: var(--accent); }
+
+button.go, a.go {
+  display: block; width: 100%; min-height: var(--tap);
+  background: var(--accent); color: #fff; border: 0; border-radius: 14px;
+  font: 700 19px/1.25 inherit; padding: 16px; margin-top: 12px; cursor: pointer;
+  text-align: center; text-decoration: none;
+}
+button.go:active, a.go:active { opacity: .88; }
+button.go[disabled] { opacity: .45; }
+button.ghost, a.ghost {
+  display: block; width: 100%; min-height: 52px; background: transparent;
+  color: var(--ink); border: 1.5px solid var(--line); border-radius: 14px;
+  font: 600 16px/1.25 inherit; padding: 14px; margin-top: 10px; cursor: pointer;
+  text-align: center; text-decoration: none;
+}
+.linkish { background: none; border: 0; padding: 12px 0; font: 500 15px inherit;
+  color: var(--muted); text-decoration: underline; cursor: pointer; }
+
+/* ---- alternates ---- */
+.alt { display: flex; gap: 12px; align-items: baseline; padding: 13px 0; border-top: 1px solid var(--line);
+  text-decoration: none; }
+.alt .an { font-weight: 600; flex: 1; }
+.alt .am { color: var(--muted); font-size: 13.5px; display: block; font-weight: 400; }
+.alt .ap { font-weight: 700; }
+
+/* ---- forms ---- */
+label { display: block; font-size: 13.5px; font-weight: 600; color: var(--muted); margin: 14px 0 5px; }
+input, select {
+  width: 100%; min-height: 52px; font: 400 17px inherit; padding: 12px 14px;
+  border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink);
+}
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 0; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* ---- receipt lines ---- */
+.line { display: flex; justify-content: space-between; padding: 7px 0; font-size: 16px; }
+.line.total { border-top: 1.5px solid var(--line); margin-top: 6px; padding-top: 12px; font-weight: 700; font-size: 20px; }
+
+/* ---- persistent chrome ---- */
+/* width:100% + border-box rather than left:0;right:0 — the latter computed to
+   content width in Chrome here and dragged a 25px horizontal scroll onto /about. */
+.foot {
+  position: fixed; left: 0; bottom: 0; width: 100%; max-width: 100vw; z-index: 40;
+  background: var(--accent); color: #fff;
+  font-size: 11.5px; line-height: 1.32; padding: 7px 14px calc(7px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+.foot a { color: #fff; }
+.topline {
+  background: var(--ink); color: #fff; font-size: 11px; line-height: 1.3;
+  padding: 5px 14px; text-align: center; letter-spacing: .01em;
+}
+.warn { font-size: 11.5px; color: var(--muted); line-height: 1.4; margin: 26px 0 0; }
+.demo-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); border: 1px solid var(--line);
+  border-radius: 5px; padding: 2px 6px; }
+
+.wordmark { font-weight: 800; letter-spacing: -0.02em; font-size: 15px; color: var(--accent); }
+
+.undo {
+  position: fixed; left: 12px; right: 12px; bottom: 52px; z-index: 50;
+  background: var(--ink); color: #fff; border-radius: 14px; padding: 13px 15px;
+  display: flex; align-items: center; gap: 12px; font-size: 15px;
+}
+.undo button { margin-left: auto; background: transparent; color: var(--dial); border: 0;
+  font: 700 16px inherit; text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 4px; }
+
+table.cmp { width: 100%; border-collapse: collapse; font-size: 15px; margin: 14px 0; }
+table.cmp th, table.cmp td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+table.cmp th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+table.cmp td.n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.scroller { overflow-x: auto; max-width: 100%; }
+table.cmp { min-width: 320px; }

@@ -1,0 +1,54 @@
+{
+ "slug": "flowerz-cannabis-co-st-paul",
+ "storeName": "Flowerz Cannabis Co.",
+ "legalName": "Flowerz Cannabis Co.",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Flowerz Cannabis Co.",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#2B211C",
+  "ground": "#FFFFFF",
+  "dial": "#C86A4A"
+ },
+ "colorSource": "https://flowerzdispensary.com/age?next=%2F",
+ "phone": "(651) 760-8018",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://flowerzdispensary.com/",
+ "verifiedOn": "2026-09-16",
+ "rating": 5,
+ "reviews": 2,
+ "openerFact": "homepage is 4,489 bytes - effectively an empty page",
+ "scan": {
+  "url": "https://flowerzdispensary.com/",
+  "ok": true,
+  "ms": 571,
+  "status": 200,
+  "final": "https://flowerzdispensary.com/age?next=%2F",
+  "bytes": 4489,
+  "https": true,
+  "viewport": true,
+  "title": "Are you 21 or older? — FLOWERZ",
+  "meta_desc": false,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 2,
+  "platforms": []
+ },
+ "stores": [
+  {
+   "id": "flowerz-cannabis-co-st-paul",
+   "name": "Saint Paul",
+   "street": "1464 Saint Clair Avenue, Suite# 102",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55105",
+   "lat": 44.9339369,
+   "lng": -93.1622412,
+   "phone": "(651) 760-8018",
+   "hours": null
+  }
+ ]
+}

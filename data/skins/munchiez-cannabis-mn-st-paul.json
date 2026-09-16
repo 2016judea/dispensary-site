@@ -1,0 +1,43 @@
+{
+ "slug": "munchiez-cannabis-mn-st-paul",
+ "storeName": "Munchiez Cannabis MN",
+ "legalName": "Munchiez Cannabis MN",
+ "tagline": "St. Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Munchiez Cannabis MN",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#1F2421",
+  "ground": "#F3F1EC",
+  "dial": "#C8553D"
+ },
+ "colorSource": "default",
+ "phone": "",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.5,
+ "reviews": 2,
+ "openerFact": "no website at all - the county directory lists no site for them",
+ "scan": {
+  "url": null,
+  "ok": false,
+  "error": "no website on file"
+ },
+ "stores": [
+  {
+   "id": "munchiez-cannabis-mn-st-paul",
+   "name": "St. Paul",
+   "street": "1670 White Bear Avenue N",
+   "city": "St. Paul",
+   "state": "MN",
+   "zip": "55106",
+   "lat": 44.99160497,
+   "lng": -93.0251398,
+   "phone": "",
+   "hours": null
+  }
+ ]
+}

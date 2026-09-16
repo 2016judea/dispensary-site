@@ -1,0 +1,802 @@
+{
+ "bloom-wellness-dispensary-st-paul": {
+  "slug": "bloom-wellness-dispensary-st-paul",
+  "storeName": "Bloom Wellness Dispensary St. Paul",
+  "legalName": "Bloom Wellness Dispensary St. Paul",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Bloom Wellness Dispensary St. Paul",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#2C3236",
+   "ground": "#FFFFFF",
+   "dial": "#894BF5"
+  },
+  "colorSource": "https://bloom-wellness.com/stores/bloom-wellness-st-paul",
+  "phone": "651-760-0420",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://bloom-wellness.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.7,
+  "reviews": 15,
+  "openerFact": "site is fine (956ms); the gap is the shopping experience, not the site",
+  "scan": {
+   "url": "https://bloom-wellness.com",
+   "ok": true,
+   "ms": 956,
+   "status": 200,
+   "final": "https://bloom-wellness.com/stores/bloom-wellness-st-paul",
+   "bytes": 149423,
+   "https": true,
+   "viewport": true,
+   "title": "Bloom Wellness - St. Paul Cannabis Menu | St Paul, MN",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 0,
+   "scripts": 18,
+   "platforms": [
+    "Dutchie"
+   ]
+  },
+  "stores": [
+   {
+    "id": "bloom-wellness-dispensary-st-paul",
+    "name": "Saint Paul",
+    "street": "550 Vandalia Street, Suite# 175",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55114",
+    "lat": 44.9572032,
+    "lng": -93.1908607,
+    "phone": "651-760-0420",
+    "hours": null
+   }
+  ]
+ },
+ "dna-dispensary-st-paul": {
+  "slug": "dna-dispensary-st-paul",
+  "storeName": "DNA Dispensary",
+  "legalName": "DNA Dispensary",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "DNA Dispensary",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#1F2421",
+   "ground": "#F3F1EC",
+   "dial": "#C8553D"
+  },
+  "colorSource": "default",
+  "phone": "(651) 391-3896",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://dnadispensary.wm.store/",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.6,
+  "reviews": 36,
+  "openerFact": "menu rented on someone else's subdomain, no site of their own",
+  "scan": {
+   "url": "https://dnadispensary.wm.store/",
+   "ok": true,
+   "ms": 731,
+   "status": 200,
+   "final": "https://dnadispensary.wm.store/",
+   "bytes": 183726,
+   "https": true,
+   "viewport": true,
+   "title": "",
+   "meta_desc": true,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 23,
+   "platforms": [
+    "Weedmaps"
+   ]
+  },
+  "stores": [
+   {
+    "id": "dna-dispensary-st-paul",
+    "name": "Saint Paul",
+    "street": "1559 Randolph Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55105",
+    "lat": 44.9271743,
+    "lng": -93.166259,
+    "phone": "(651) 391-3896",
+    "hours": null
+   }
+  ]
+ },
+ "flowerz-cannabis-co-st-paul": {
+  "slug": "flowerz-cannabis-co-st-paul",
+  "storeName": "Flowerz Cannabis Co.",
+  "legalName": "Flowerz Cannabis Co.",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Flowerz Cannabis Co.",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#2B211C",
+   "ground": "#FFFFFF",
+   "dial": "#C86A4A"
+  },
+  "colorSource": "https://flowerzdispensary.com/age?next=%2F",
+  "phone": "(651) 760-8018",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://flowerzdispensary.com/",
+  "verifiedOn": "2026-09-16",
+  "rating": 5,
+  "reviews": 2,
+  "openerFact": "homepage is 4,489 bytes - effectively an empty page",
+  "scan": {
+   "url": "https://flowerzdispensary.com/",
+   "ok": true,
+   "ms": 571,
+   "status": 200,
+   "final": "https://flowerzdispensary.com/age?next=%2F",
+   "bytes": 4489,
+   "https": true,
+   "viewport": true,
+   "title": "Are you 21 or older? — FLOWERZ",
+   "meta_desc": false,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 2,
+   "platforms": []
+  },
+  "stores": [
+   {
+    "id": "flowerz-cannabis-co-st-paul",
+    "name": "Saint Paul",
+    "street": "1464 Saint Clair Avenue, Suite# 102",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55105",
+    "lat": 44.9339369,
+    "lng": -93.1622412,
+    "phone": "(651) 760-8018",
+    "hours": null
+   }
+  ]
+ },
+ "fort-road-cannabis-st-paul": {
+  "slug": "fort-road-cannabis-st-paul",
+  "storeName": "Fort Road Cannabis",
+  "legalName": "Fort Road Cannabis",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Fort Road Cannabis",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#5A32D2",
+   "ground": "#C7F6E1",
+   "dial": "#1EA99E"
+  },
+  "colorSource": "https://fortroadcannabis.dispensary.shop/rec/menu",
+  "phone": "(651) 352-2663",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://fortroadcannabis.dispensary.shop/rec/menu",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.8,
+  "reviews": 32,
+  "openerFact": "4.2s to load on a phone, 1.2MB",
+  "scan": {
+   "url": "https://fortroadcannabis.dispensary.shop/rec/menu",
+   "ok": true,
+   "ms": 4241,
+   "status": 200,
+   "final": "https://fortroadcannabis.dispensary.shop/rec/menu",
+   "bytes": 1246564,
+   "https": true,
+   "viewport": true,
+   "title": "Fort Road Cannabis | Saint Paul, MN",
+   "meta_desc": true,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 9,
+   "platforms": [
+    "Dispense"
+   ]
+  },
+  "stores": [
+   {
+    "id": "fort-road-cannabis-st-paul",
+    "name": "Saint Paul",
+    "street": "899 Randolph Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55102",
+    "lat": 44.9270856,
+    "lng": -93.1380508,
+    "phone": "(651) 352-2663",
+    "hours": null
+   }
+  ]
+ },
+ "green-walker-dispensary-st-paul": {
+  "slug": "green-walker-dispensary-st-paul",
+  "storeName": "Green Walker Dispensary",
+  "legalName": "Green Walker Dispensary",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Green Walker Dispensary",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#1F2421",
+   "ground": "#F3F1EC",
+   "dial": "#C8553D"
+  },
+  "colorSource": "default",
+  "phone": "(612) 390-9591",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "",
+  "verifiedOn": "2026-09-16",
+  "rating": null,
+  "reviews": null,
+  "openerFact": "no website at all - the county directory lists no site for them",
+  "scan": {
+   "url": null,
+   "ok": false,
+   "error": "no website on file"
+  },
+  "stores": [
+   {
+    "id": "green-walker-dispensary-st-paul",
+    "name": "Saint Paul",
+    "street": "776 E 7th Street, Suite# 1",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55106",
+    "lat": 44.9603165,
+    "lng": -93.0685328,
+    "phone": "(612) 390-9591",
+    "hours": null
+   }
+  ]
+ },
+ "kodjo-s-dispensary-st-paul": {
+  "slug": "kodjo-s-dispensary-st-paul",
+  "storeName": "Kodjo's Dispensary",
+  "legalName": "Kodjo's Dispensary",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Kodjo's Dispensary",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#1F2421",
+   "ground": "#F3F1EC",
+   "dial": "#C8553D"
+  },
+  "colorSource": "default",
+  "phone": "",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "",
+  "verifiedOn": "2026-09-16",
+  "rating": null,
+  "reviews": null,
+  "openerFact": "no website at all - the county directory lists no site for them",
+  "scan": {
+   "url": null,
+   "ok": false,
+   "error": "no website on file"
+  },
+  "stores": [
+   {
+    "id": "kodjo-s-dispensary-st-paul",
+    "name": "Saint Paul",
+    "street": "446 W University Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55103",
+    "lat": 44.95568955,
+    "lng": -93.11902209,
+    "phone": "",
+    "hours": null
+   }
+  ]
+ },
+ "midway-cannabis-st-paul": {
+  "slug": "midway-cannabis-st-paul",
+  "storeName": "Midway Cannabis",
+  "legalName": "Midway Cannabis",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Midway Cannabis",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#005555",
+   "ground": "#FFFFFF",
+   "dial": "#005555"
+  },
+  "colorSource": "http://www.midway-cannabis.com/",
+  "phone": "(651) 348-6523",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "http://www.midway-cannabis.com/",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.4,
+  "reviews": 54,
+  "openerFact": "no mobile viewport tag - the site is not responsive on a phone",
+  "scan": {
+   "url": "http://www.midway-cannabis.com/",
+   "ok": true,
+   "ms": 413,
+   "status": 200,
+   "final": "http://www.midway-cannabis.com/",
+   "bytes": 7674,
+   "https": false,
+   "viewport": false,
+   "title": "Midway Coffee and Tea - Home Page",
+   "meta_desc": false,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 5,
+   "platforms": []
+  },
+  "stores": [
+   {
+    "id": "midway-cannabis-st-paul",
+    "name": "Saint Paul",
+    "street": "1607 W University Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55104",
+    "lat": 44.9560694,
+    "lng": -93.1682786,
+    "phone": "(651) 348-6523",
+    "hours": null
+   }
+  ]
+ },
+ "mnloon-st-paul": {
+  "slug": "mnloon-st-paul",
+  "storeName": "MnLooN",
+  "legalName": "MnLooN",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "MnLooN",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#212529",
+   "ground": "#FFFFFF",
+   "dial": "#0D6EFD"
+  },
+  "colorSource": "https://themnloon.com",
+  "phone": "(651) 364-2585",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://themnloon.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.9,
+  "reviews": 704,
+  "openerFact": "site is fine (205ms); the gap is the shopping experience, not the site",
+  "scan": {
+   "url": "https://themnloon.com",
+   "ok": true,
+   "ms": 205,
+   "status": 200,
+   "final": "https://themnloon.com",
+   "bytes": 95136,
+   "https": true,
+   "viewport": true,
+   "title": "Recreational Cannabis Dispensary in Minnesota | MnLooN",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 2,
+   "scripts": 26,
+   "platforms": [
+    "Dutchie",
+    "WordPress"
+   ]
+  },
+  "stores": [
+   {
+    "id": "mnloon-st-paul",
+    "name": "Saint Paul",
+    "street": "608 S Snelling Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55116",
+    "lat": 44.9231355,
+    "lng": -93.1665253,
+    "phone": "(651) 364-2585",
+    "hours": null
+   }
+  ]
+ },
+ "munchiez-cannabis-mn-st-paul": {
+  "slug": "munchiez-cannabis-mn-st-paul",
+  "storeName": "Munchiez Cannabis MN",
+  "legalName": "Munchiez Cannabis MN",
+  "tagline": "St. Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Munchiez Cannabis MN",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#1F2421",
+   "ground": "#F3F1EC",
+   "dial": "#C8553D"
+  },
+  "colorSource": "default",
+  "phone": "",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.5,
+  "reviews": 2,
+  "openerFact": "no website at all - the county directory lists no site for them",
+  "scan": {
+   "url": null,
+   "ok": false,
+   "error": "no website on file"
+  },
+  "stores": [
+   {
+    "id": "munchiez-cannabis-mn-st-paul",
+    "name": "St. Paul",
+    "street": "1670 White Bear Avenue N",
+    "city": "St. Paul",
+    "state": "MN",
+    "zip": "55106",
+    "lat": 44.99160497,
+    "lng": -93.0251398,
+    "phone": "",
+    "hours": null
+   }
+  ]
+ },
+ "potshotz-mn-st-paul": {
+  "slug": "potshotz-mn-st-paul",
+  "storeName": "Potshotz mn",
+  "legalName": "Potshotz mn",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Potshotz mn",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#1F2421",
+   "ground": "#F3F1EC",
+   "dial": "#C8553D"
+  },
+  "colorSource": "default",
+  "phone": "",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://potshotzmn.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.6,
+  "reviews": 51,
+  "openerFact": "site is fine (938ms); the gap is the shopping experience, not the site",
+  "scan": {
+   "url": "https://potshotzmn.com",
+   "ok": true,
+   "ms": 938,
+   "status": 200,
+   "final": "https://potshotzmn.com",
+   "bytes": 395354,
+   "https": true,
+   "viewport": true,
+   "title": "Cannabis Dispensary",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 0,
+   "scripts": 35,
+   "platforms": [
+    "BLAZE/Tymber"
+   ]
+  },
+  "stores": [
+   {
+    "id": "potshotz-mn-st-paul",
+    "name": "Saint Paul",
+    "street": "1549 W University Avenue, Suite# East",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55104",
+    "lat": 44.9560153,
+    "lng": -93.1658426,
+    "phone": "",
+    "hours": null
+   }
+  ]
+ },
+ "randolph-s-cannabis-reserve-st-paul": {
+  "slug": "randolph-s-cannabis-reserve-st-paul",
+  "storeName": "Randolph's Cannabis Reserve",
+  "legalName": "Randolph's Cannabis Reserve",
+  "tagline": "St. Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Randolph's Cannabis Reserve",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#003388",
+   "ground": "#FFFFFF",
+   "dial": "#0274BE"
+  },
+  "colorSource": "https://randolphsreserve.com",
+  "phone": "",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://randolphsreserve.com",
+  "verifiedOn": "2026-09-16",
+  "rating": null,
+  "reviews": null,
+  "openerFact": "no structured data - invisible to search beyond the name",
+  "scan": {
+   "url": "https://randolphsreserve.com",
+   "ok": true,
+   "ms": 716,
+   "status": 200,
+   "final": "https://randolphsreserve.com",
+   "bytes": 143191,
+   "https": true,
+   "viewport": true,
+   "title": "randolphsreserve.com",
+   "meta_desc": false,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 26,
+   "platforms": [
+    "Dutchie",
+    "WordPress"
+   ]
+  },
+  "stores": [
+   {
+    "id": "randolph-s-cannabis-reserve-st-paul",
+    "name": "St. Paul",
+    "street": "675 Randolph Avenue",
+    "city": "St. Paul",
+    "state": "MN",
+    "zip": "55102",
+    "lat": 44.92691849,
+    "lng": -93.12931876,
+    "phone": "",
+    "hours": null
+   }
+  ]
+ },
+ "really-dope-st-paul": {
+  "slug": "really-dope-st-paul",
+  "storeName": "Really Dope",
+  "legalName": "Really Dope",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Really Dope",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#003388",
+   "ground": "#FFFFFF",
+   "dial": "#FF6900"
+  },
+  "colorSource": "https://www.really-dope.com",
+  "phone": "(612) 354-2037",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://www.really-dope.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 5,
+  "reviews": 40,
+  "openerFact": "site is fine (510ms); the gap is the shopping experience, not the site",
+  "scan": {
+   "url": "https://www.really-dope.com",
+   "ok": true,
+   "ms": 510,
+   "status": 200,
+   "final": "https://www.really-dope.com",
+   "bytes": 93384,
+   "https": true,
+   "viewport": true,
+   "title": "Home - Really Dope Minnesota",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 0,
+   "scripts": 43,
+   "platforms": [
+    "WordPress"
+   ]
+  },
+  "stores": [
+   {
+    "id": "really-dope-st-paul",
+    "name": "Saint Paul",
+    "street": "162 Dale Street N",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55102",
+    "lat": 44.9462853,
+    "lng": -93.1260556,
+    "phone": "(612) 354-2037",
+    "hours": null
+   }
+  ]
+ },
+ "the-grey-area-st-paul": {
+  "slug": "the-grey-area-st-paul",
+  "storeName": "The Grey Area",
+  "legalName": "The Grey Area",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "The Grey Area",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#000000",
+   "ground": "#F4F7F2",
+   "dial": "#C8553D"
+  },
+  "colorSource": "https://greyareacannabis.com",
+  "phone": "651-447-2321",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://greyareacannabis.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 5,
+  "reviews": 26,
+  "openerFact": "no structured data - invisible to search beyond the name",
+  "scan": {
+   "url": "https://greyareacannabis.com",
+   "ok": true,
+   "ms": 541,
+   "status": 200,
+   "final": "https://greyareacannabis.com",
+   "bytes": 239615,
+   "https": true,
+   "viewport": true,
+   "title": "GREY AREA",
+   "meta_desc": true,
+   "jsonld": 0,
+   "iframes": 0,
+   "scripts": 8,
+   "platforms": [
+    "Dispense"
+   ]
+  },
+  "stores": [
+   {
+    "id": "the-grey-area-st-paul",
+    "name": "Saint Paul",
+    "street": "1330 Grand Avenue",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55105",
+    "lat": 44.9398476,
+    "lng": -93.1563878,
+    "phone": "651-447-2321",
+    "hours": null
+   }
+  ]
+ },
+ "theory-wellness-of-mn-st-paul": {
+  "slug": "theory-wellness-of-mn-st-paul",
+  "storeName": "Theory Wellness of MN",
+  "legalName": "Theory Wellness of MN",
+  "tagline": "St. Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Theory Wellness of MN",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#FF1053",
+   "ground": "#FFFFFF",
+   "dial": "#D87558"
+  },
+  "colorSource": "https://theorywellness.org",
+  "phone": "",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://theorywellness.org",
+  "verifiedOn": "2026-09-16",
+  "rating": null,
+  "reviews": null,
+  "openerFact": "site is fine (447ms); the gap is the shopping experience, not the site",
+  "scan": {
+   "url": "https://theorywellness.org",
+   "ok": true,
+   "ms": 447,
+   "status": 200,
+   "final": "https://theorywellness.org",
+   "bytes": 258618,
+   "https": true,
+   "viewport": true,
+   "title": "Theory Wellness | Medical &amp; Recreational Cannabis Dispensary",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 1,
+   "scripts": 84,
+   "platforms": [
+    "Dutchie",
+    "WordPress"
+   ]
+  },
+  "stores": [
+   {
+    "id": "theory-wellness-of-mn-st-paul",
+    "name": "St. Paul",
+    "street": "1915 Suburban Avenue",
+    "city": "St. Paul",
+    "state": "MN",
+    "zip": "55119",
+    "lat": 44.94971813,
+    "lng": -93.0199028,
+    "phone": "",
+    "hours": null
+   }
+  ]
+ },
+ "zaza-cannabis-st-paul": {
+  "slug": "zaza-cannabis-st-paul",
+  "storeName": "Zaza Cannabis - St Paul",
+  "legalName": "Zaza Cannabis - St Paul",
+  "tagline": "Saint Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "Zaza Cannabis - St Paul",
+  "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+  "colors": {
+   "accent": "#003388",
+   "ground": "#FFFFFF",
+   "dial": "#CB2027"
+  },
+  "colorSource": "https://zazacannabismn.com",
+  "phone": "(612) 223-8193",
+  "email": "",
+  "licenseNumber": "",
+  "url": "",
+  "sourceUrl": "https://zazacannabismn.com",
+  "verifiedOn": "2026-09-16",
+  "rating": 4.7,
+  "reviews": 460,
+  "openerFact": "4.5s to load on a phone, 0.4MB",
+  "scan": {
+   "url": "https://zazacannabismn.com",
+   "ok": true,
+   "ms": 4492,
+   "status": 200,
+   "final": "https://zazacannabismn.com",
+   "bytes": 435103,
+   "https": true,
+   "viewport": true,
+   "title": "Home - zazacannabismn",
+   "meta_desc": true,
+   "jsonld": 1,
+   "iframes": 0,
+   "scripts": 97,
+   "platforms": [
+    "WordPress"
+   ]
+  },
+  "stores": [
+   {
+    "id": "zaza-cannabis-st-paul",
+    "name": "Saint Paul",
+    "street": "1112 Grand Ave",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55105",
+    "lat": 44.9398,
+    "lng": -93.1369,
+    "phone": "(612) 223-8193",
+    "hours": null
+   }
+  ]
+ }
+}

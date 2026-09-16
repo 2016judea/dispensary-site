@@ -1,0 +1,30 @@
+{
+  "name": "dispensary-site",
+  "version": "1.0.0",
+  "description": "Feeling-first dispensary storefront - independent concept by Brick & Mortar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen": "node scripts/gen-menu.mjs && node scripts/gen-reviews.mjs",
+    "skins": "node scripts/skin.mjs --all",
+    "scan": "node scripts/self-scan.mjs",
+    "taps": "node scripts/measure-taps.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

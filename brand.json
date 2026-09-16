@@ -1,0 +1,39 @@
+{
+  "slug": "rise-st-paul",
+  "storeName": "RISE Dispensaries",
+  "legalName": "RISE Dispensary St. Paul",
+  "tagline": "St. Paul, MN",
+  "headline": "What sort of feeling are you chasing?",
+  "wordmark": "RISE",
+  "wordmarkNote": "placeholder wordmark - set in the site's own typeface, not RISE's logotype",
+  "colors": { "accent": "#00461E", "ground": "#E9ECD9", "dial": "#C4D600" },
+  "phone": "(651) 313-6733",
+  "email": "",
+  "licenseNumber": "MDCMB-L25-000001-07-AUR",
+  "licenseNote": "adult-use licence number as published on risecannabis.com, read 2026-09-15",
+  "url": "https://dispensary-site.vercel.app",
+  "sourceUrl": "https://risecannabis.com/dispensaries/minnesota/st-paul/",
+  "verifiedOn": "2026-09-15",
+  "stores": [
+    {
+      "id": "ford-pkwy",
+      "name": "Ford Parkway",
+      "street": "2239 Ford Pkwy",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "55116",
+      "lat": 44.9177,
+      "lng": -93.1955,
+      "phone": "(651) 313-6733",
+      "hours": {
+        "Mon": "09:00-21:00",
+        "Tue": "09:00-21:00",
+        "Wed": "09:00-21:00",
+        "Thu": "09:00-21:00",
+        "Fri": "09:00-21:00",
+        "Sat": "09:00-21:00",
+        "Sun": "10:00-20:00"
+      }
+    }
+  ]
+}

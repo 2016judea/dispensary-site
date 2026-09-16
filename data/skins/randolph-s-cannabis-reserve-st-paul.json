@@ -1,0 +1,57 @@
+{
+ "slug": "randolph-s-cannabis-reserve-st-paul",
+ "storeName": "Randolph's Cannabis Reserve",
+ "legalName": "Randolph's Cannabis Reserve",
+ "tagline": "St. Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Randolph's Cannabis Reserve",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#003388",
+  "ground": "#FFFFFF",
+  "dial": "#0274BE"
+ },
+ "colorSource": "https://randolphsreserve.com",
+ "phone": "",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://randolphsreserve.com",
+ "verifiedOn": "2026-09-16",
+ "rating": null,
+ "reviews": null,
+ "openerFact": "no structured data - invisible to search beyond the name",
+ "scan": {
+  "url": "https://randolphsreserve.com",
+  "ok": true,
+  "ms": 716,
+  "status": 200,
+  "final": "https://randolphsreserve.com",
+  "bytes": 143191,
+  "https": true,
+  "viewport": true,
+  "title": "randolphsreserve.com",
+  "meta_desc": false,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 26,
+  "platforms": [
+   "Dutchie",
+   "WordPress"
+  ]
+ },
+ "stores": [
+  {
+   "id": "randolph-s-cannabis-reserve-st-paul",
+   "name": "St. Paul",
+   "street": "675 Randolph Avenue",
+   "city": "St. Paul",
+   "state": "MN",
+   "zip": "55102",
+   "lat": 44.92691849,
+   "lng": -93.12931876,
+   "phone": "",
+   "hours": null
+  }
+ ]
+}

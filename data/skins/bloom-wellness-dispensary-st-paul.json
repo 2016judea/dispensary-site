@@ -1,0 +1,56 @@
+{
+ "slug": "bloom-wellness-dispensary-st-paul",
+ "storeName": "Bloom Wellness Dispensary St. Paul",
+ "legalName": "Bloom Wellness Dispensary St. Paul",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Bloom Wellness Dispensary St. Paul",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#2C3236",
+  "ground": "#FFFFFF",
+  "dial": "#894BF5"
+ },
+ "colorSource": "https://bloom-wellness.com/stores/bloom-wellness-st-paul",
+ "phone": "651-760-0420",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://bloom-wellness.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.7,
+ "reviews": 15,
+ "openerFact": "site is fine (956ms); the gap is the shopping experience, not the site",
+ "scan": {
+  "url": "https://bloom-wellness.com",
+  "ok": true,
+  "ms": 956,
+  "status": 200,
+  "final": "https://bloom-wellness.com/stores/bloom-wellness-st-paul",
+  "bytes": 149423,
+  "https": true,
+  "viewport": true,
+  "title": "Bloom Wellness - St. Paul Cannabis Menu | St Paul, MN",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 0,
+  "scripts": 18,
+  "platforms": [
+   "Dutchie"
+  ]
+ },
+ "stores": [
+  {
+   "id": "bloom-wellness-dispensary-st-paul",
+   "name": "Saint Paul",
+   "street": "550 Vandalia Street, Suite# 175",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55114",
+   "lat": 44.9572032,
+   "lng": -93.1908607,
+   "phone": "651-760-0420",
+   "hours": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "zaza-cannabis-st-paul",
+ "storeName": "Zaza Cannabis - St Paul",
+ "legalName": "Zaza Cannabis - St Paul",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Zaza Cannabis - St Paul",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#003388",
+  "ground": "#FFFFFF",
+  "dial": "#CB2027"
+ },
+ "colorSource": "https://zazacannabismn.com",
+ "phone": "(612) 223-8193",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://zazacannabismn.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 4.7,
+ "reviews": 460,
+ "openerFact": "4.5s to load on a phone, 0.4MB",
+ "scan": {
+  "url": "https://zazacannabismn.com",
+  "ok": true,
+  "ms": 4492,
+  "status": 200,
+  "final": "https://zazacannabismn.com",
+  "bytes": 435103,
+  "https": true,
+  "viewport": true,
+  "title": "Home - zazacannabismn",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 0,
+  "scripts": 97,
+  "platforms": [
+   "WordPress"
+  ]
+ },
+ "stores": [
+  {
+   "id": "zaza-cannabis-st-paul",
+   "name": "Saint Paul",
+   "street": "1112 Grand Ave",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55105",
+   "lat": 44.9398,
+   "lng": -93.1369,
+   "phone": "(612) 223-8193",
+   "hours": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "the-grey-area-st-paul",
+ "storeName": "The Grey Area",
+ "legalName": "The Grey Area",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "The Grey Area",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#000000",
+  "ground": "#F4F7F2",
+  "dial": "#C8553D"
+ },
+ "colorSource": "https://greyareacannabis.com",
+ "phone": "651-447-2321",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://greyareacannabis.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 5,
+ "reviews": 26,
+ "openerFact": "no structured data - invisible to search beyond the name",
+ "scan": {
+  "url": "https://greyareacannabis.com",
+  "ok": true,
+  "ms": 541,
+  "status": 200,
+  "final": "https://greyareacannabis.com",
+  "bytes": 239615,
+  "https": true,
+  "viewport": true,
+  "title": "GREY AREA",
+  "meta_desc": true,
+  "jsonld": 0,
+  "iframes": 0,
+  "scripts": 8,
+  "platforms": [
+   "Dispense"
+  ]
+ },
+ "stores": [
+  {
+   "id": "the-grey-area-st-paul",
+   "name": "Saint Paul",
+   "street": "1330 Grand Avenue",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55105",
+   "lat": 44.9398476,
+   "lng": -93.1563878,
+   "phone": "651-447-2321",
+   "hours": null
+  }
+ ]
+}

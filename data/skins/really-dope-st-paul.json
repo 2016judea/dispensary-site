@@ -1,0 +1,56 @@
+{
+ "slug": "really-dope-st-paul",
+ "storeName": "Really Dope",
+ "legalName": "Really Dope",
+ "tagline": "Saint Paul, MN",
+ "headline": "What sort of feeling are you chasing?",
+ "wordmark": "Really Dope",
+ "wordmarkNote": "placeholder wordmark - the store name set in this site's own typeface. No logo of theirs is reproduced.",
+ "colors": {
+  "accent": "#003388",
+  "ground": "#FFFFFF",
+  "dial": "#FF6900"
+ },
+ "colorSource": "https://www.really-dope.com",
+ "phone": "(612) 354-2037",
+ "email": "",
+ "licenseNumber": "",
+ "url": "",
+ "sourceUrl": "https://www.really-dope.com",
+ "verifiedOn": "2026-09-16",
+ "rating": 5,
+ "reviews": 40,
+ "openerFact": "site is fine (510ms); the gap is the shopping experience, not the site",
+ "scan": {
+  "url": "https://www.really-dope.com",
+  "ok": true,
+  "ms": 510,
+  "status": 200,
+  "final": "https://www.really-dope.com",
+  "bytes": 93384,
+  "https": true,
+  "viewport": true,
+  "title": "Home - Really Dope Minnesota",
+  "meta_desc": true,
+  "jsonld": 1,
+  "iframes": 0,
+  "scripts": 43,
+  "platforms": [
+   "WordPress"
+  ]
+ },
+ "stores": [
+  {
+   "id": "really-dope-st-paul",
+   "name": "Saint Paul",
+   "street": "162 Dale Street N",
+   "city": "Saint Paul",
+   "state": "MN",
+   "zip": "55102",
+   "lat": 44.9462853,
+   "lng": -93.1260556,
+   "phone": "(612) 354-2037",
+   "hours": null
+  }
+ ]
+}

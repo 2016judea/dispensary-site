@@ -11,7 +11,12 @@ const SELF: SelfScan | null = _raw && _raw.summary ? (_raw as SelfScan) : null;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = loadSkin(slug);
-  return { title: s ? s.storeName : 'Demo', robots: { index: false, follow: false } };
+  // absolute: the root layout's `%s — <store>` template would otherwise render
+  // a skin as "Fort Road Cannabis — Fort Road Cannabis".
+  return {
+    title: { absolute: s ? `${s.storeName} — concept by Brick & Mortar` : 'Demo' },
+    robots: { index: false, follow: false },
+  };
 }
 
 const kb = (n?: number) => (n == null ? '—' : `${Math.round(n / 1024)} KB`);

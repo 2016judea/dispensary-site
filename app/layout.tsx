@@ -27,6 +27,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <head>
         <meta name="robots" content="noindex,nofollow" />
         <style dangerouslySetInnerHTML={{ __html: css }} />
+        {/* Vercel Web Analytics (enabled on the project 2026-10-08). */}
+        <script dangerouslySetInnerHTML={{ __html: 'window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};' }} />
+        <script defer src="/_vercel/insights/script.js" />
       </head>
       <body>
         {children}

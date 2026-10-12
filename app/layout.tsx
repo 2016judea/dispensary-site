@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { currentBrand } from '@/lib/session';
 import { MN_WARNING, honestyLine } from '@/lib/brand';
+import { POSTHOG_JS } from './posthog';
 
 export const viewport: Viewport = {
   width: 'device-width', initialScale: 1, viewportFit: 'cover',
@@ -30,6 +31,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         {/* Vercel Web Analytics (enabled on the project 2026-10-08). */}
         <script dangerouslySetInnerHTML={{ __html: 'window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};' }} />
         <script defer src="/_vercel/insights/script.js" />
+        {/* PostHog: persistent reader id, ?me=1 opt-out, no headless capture (2026-10-12). */}
+        <script dangerouslySetInnerHTML={{ __html: POSTHOG_JS }} />
       </head>
       <body>
         {children}

@@ -1,7 +1,7 @@
 {
   "name": "dispensary-site",
   "version": "1.0.0",
-  "description": "Feeling-first dispensary storefront - independent concept by Brick & Mortar",
+  "description": "Re-imagined UX for a cannabis dispensary. Independent concept by Brick & Mortar.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",

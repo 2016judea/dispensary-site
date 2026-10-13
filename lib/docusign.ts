@@ -36,7 +36,7 @@ export function docusignConfig(): DocuSignConfig | null {
     DOCUSIGN_PRIVATE_KEY, DOCUSIGN_AUTH_BASE, NEXT_PUBLIC_SITE_URL,
   } = process.env;
   if (!DOCUSIGN_INTEGRATION_KEY || !DOCUSIGN_USER_ID || !DOCUSIGN_ACCOUNT_ID || !DOCUSIGN_PRIVATE_KEY) return null;
-  const site = NEXT_PUBLIC_SITE_URL || 'https://dispensary-site.vercel.app';
+  const site = NEXT_PUBLIC_SITE_URL || 'https://feeling-first.vercel.app';
   return {
     integrationKey: DOCUSIGN_INTEGRATION_KEY,
     userId: DOCUSIGN_USER_ID,

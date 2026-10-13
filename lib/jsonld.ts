@@ -10,7 +10,7 @@ const DAY_URI: Record<string, string> = {
 };
 
 export function siteUrl(): string {
-  return process.env.NEXT_PUBLIC_SITE_URL || 'https://dispensary-site.vercel.app';
+  return process.env.NEXT_PUBLIC_SITE_URL || 'https://feeling-first.vercel.app';
 }
 
 /**

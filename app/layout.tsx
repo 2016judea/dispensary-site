@@ -15,8 +15,8 @@ export async function generateMetadata(): Promise<Metadata> {
     // the real retailer's site. See docs/compliance-mn.md.
     robots: { index: false, follow: false, nocache: true },
     title: { default: `${b.storeName} — ${b.tagline}`, template: `%s — ${b.storeName}` },
-    description: `Independent concept build. Pick a feeling, get one product, pick it up at ${b.stores[0]?.street ?? b.tagline}.`,
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://dispensary-site.vercel.app'),
+    description: `Re-imagined UX for a cannabis dispensary. Independent concept build. Pick a feeling, get one product, pick it up at ${b.stores[0]?.street ?? b.tagline}.`,
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://feeling-first.vercel.app'),
   };
 }
 

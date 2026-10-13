@@ -1,6 +1,10 @@
-# Feeling-first dispensary storefront
+# Feeling First THC
 
-**Live: https://feeling-first.vercel.app**
+**Live:** https://feeling-first.vercel.app
+
+**Re-imagined UX for a cannabis dispensary.**
+
+*(Aidan, [Business Prototypes](https://randomaidan.substack.com/p/business-prototypes), 2026-10-12.)*
 
 An unsolicited concept build, branded for **RISE Dispensaries St. Paul**,
 2239 Ford Pkwy. Independent work by Brick & Mortar. **Not affiliated with RISE

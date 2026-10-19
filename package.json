@@ -10,7 +10,8 @@
     "gen": "node scripts/gen-menu.mjs && node scripts/gen-reviews.mjs",
     "skins": "node scripts/skin.mjs --all",
     "scan": "node scripts/self-scan.mjs",
-    "taps": "node scripts/measure-taps.mjs"
+    "taps": "node scripts/measure-taps.mjs",
+    "test": "node scripts/test.mjs"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@types/node": "^26.5.1",
     "@types/react": "^19.3.0",
+    "esbuild": "^0.28.2",
     "typescript": "^7.0.2"
   },
   "private": true

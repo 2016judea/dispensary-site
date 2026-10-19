@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { productById } from '@/lib/rank';
 import { totals } from '@/lib/money';
 import { checkLimits } from '@/lib/limits';
+import { offShelf } from '@/lib/stock';
 import { getAeropay } from '@/lib/aeropay';
 import { addOrder, upsertCustomer } from '@/lib/store';
 import { loadSkin, RISE } from '@/lib/brand';
@@ -38,6 +39,13 @@ export async function POST(req: Request) {
     .map((l: any) => ({ product: productById(String(l.productId)), qty: Math.max(1, Math.min(20, Number(l.qty) || 1)) }))
     .filter((l: any) => l.product);
   if (!resolved.length) return NextResponse.json({ error: 'nothing in the order' }, { status: 400 });
+
+  // Never confirm a pickup for something that is not on the shelf — the exact
+  // failure the README cites (a 9 Sep two-star). Same reading as the finder.
+  const missing = offShelf(resolved, storeId);
+  if (missing.length) {
+    return NextResponse.json({ error: `${missing.map((p: any) => p.name).join(', ')} is not on the shelf right now` }, { status: 409 });
+  }
 
   // Minnesota per-transaction caps. Enforced here, not in the UI.
   const limit = checkLimits(resolved);

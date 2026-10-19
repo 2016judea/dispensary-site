@@ -87,6 +87,13 @@ export function productLd(b: Brand, p: Product, outcomes: Partial<Record<Feeling
   };
 }
 
+/**
+ * JSON inside a <script> block is HTML first and JSON second: a "</script>"
+ * in a product or store name (both copied off a retailer's live site by the
+ * generators) closes the block and the rest runs as script. Escaping < > &
+ * as \uXXXX keeps the JSON identical to a parser and inert to the HTML parser.
+ */
 export function ld(obj: unknown) {
-  return { __html: JSON.stringify(obj) };
+  const html = JSON.stringify(obj).replace(/[<>&\u2028\u2029]/g, (c) => `\\u${c.charCodeAt(0).toString(16).padStart(4, "0")}`);
+  return { __html: html };
 }
